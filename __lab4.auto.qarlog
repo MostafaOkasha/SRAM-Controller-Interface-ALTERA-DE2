@@ -1,0 +1,24 @@
+Quartus II Archive log --	Z:/MT3TB4/2017/lab4starter/__lab4.auto.qarlog
+
+Archive:	Z:/MT3TB4/2017/lab4starter/__lab4.auto.qar
+Date:		Tue Mar 07 12:52:28 2017
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+SRAM_Controller.v
+Z:/MT3TB4/2017/lab4starter/db/lab4.cbx.xml
+Z:/MT3TB4/2017/lab4starter/db/lab4.qpf
+Z:/MT3TB4/2017/lab4starter/output_files/lab4.archive.rpt
+Z:/MT3TB4/2017/lab4starter/output_files/lab4.flow.rpt
+Z:/MT3TB4/2017/lab4starter/output_files/lab4.map.rpt
+Z:/MT3TB4/2017/lab4starter/output_files/lab4.map.summary
+Z:/MT3TB4/2017/lab4starter/output_files/lab4.restore.rpt
+__lab4.auto.qarlog
+assignment_defaults.qdf
+lab4.qsf
+lab4.v
+lab4_assignment_defaults.qdf
+	======= Total: 13 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

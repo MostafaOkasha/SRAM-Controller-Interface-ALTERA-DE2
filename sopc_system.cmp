@@ -1,0 +1,14 @@
+	component sopc_system is
+		port (
+			clk_clk                                : in    std_logic                     := 'X';             -- clk
+			reset_reset_n                          : in    std_logic                     := 'X';             -- reset_n
+			sram_controller_0_conduit_end_export   : inout std_logic_vector(15 downto 0) := (others => 'X'); -- export
+			sram_controller_0_conduit_end_1_export : out   std_logic_vector(17 downto 0);                    -- export
+			sram_controller_0_conduit_end_2_export : out   std_logic;                                        -- export
+			sram_controller_0_conduit_end_3_export : out   std_logic;                                        -- export
+			sram_controller_0_conduit_end_4_export : out   std_logic;                                        -- export
+			sram_controller_0_conduit_end_5_export : out   std_logic;                                        -- export
+			sram_controller_0_conduit_end_6_export : out   std_logic                                         -- export
+		);
+	end component sopc_system;
+

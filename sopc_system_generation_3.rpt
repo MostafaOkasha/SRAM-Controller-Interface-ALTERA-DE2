@@ -1,0 +1,139 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/ --output-directory=C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system/ --report-file=bsf:C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system.qsys
+Progress: Loading lab4_restored/sopc_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding SRAM_Controller_0 [SRAM_Controller 1.0]
+Progress: Parameterizing module SRAM_Controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/ --output-directory=C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system.sopcinfo --report-file=html:C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system.html --report-file=qip:C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system/synthesis/sopc_system.qip --report-file=cmp:C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system.qsys --language=VERILOG
+Progress: Loading lab4_restored/sopc_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding SRAM_Controller_0 [SRAM_Controller 1.0]
+Progress: Parameterizing module SRAM_Controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: sopc_system: Generating sopc_system "sopc_system" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 5 modules, 21 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 11 modules, 45 connections
+Info: merlin_domain_transform: After transform: 22 modules, 115 connections
+Info: merlin_router_transform: After transform: 28 modules, 139 connections
+Info: merlin_burst_transform: After transform: 29 modules, 143 connections
+Info: reset_adaptation_transform: After transform: 30 modules, 113 connections
+Info: merlin_network_to_switch_transform: After transform: 41 modules, 141 connections
+Info: merlin_width_transform: After transform: 43 modules, 147 connections
+Info: merlin_mm_transform: After transform: 43 modules, 147 connections
+Info: merlin_interrupt_mapper_transform: After transform: 44 modules, 150 connections
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: sopc_system: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: nios2_qsys_0: Starting RTL generation for module 'sopc_system_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=sopc_system_nios2_qsys_0 --dir=C:/Users/mos-o/AppData/Local/Temp/alt7238_1590545190186138868.dir/0001_nios2_qsys_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/mos-o/AppData/Local/Temp/alt7238_1590545190186138868.dir/0001_nios2_qsys_0_gen//sopc_system_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: nios2_qsys_0: # 2017.03.13 00:40:31 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2017.03.13 00:40:31 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2017.03.13 00:40:32 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: nios2_qsys_0: # 2017.03.13 00:40:32 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2017.03.13 00:40:32 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2017.03.13 00:40:32 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2017.03.13 00:40:32 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2017.03.13 00:40:32 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2017.03.13 00:40:32 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2017.03.13 00:40:33 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2017.03.13 00:40:33 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2017.03.13 00:40:35 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'sopc_system_nios2_qsys_0'
+Info: nios2_qsys_0: "sopc_system" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'sopc_system_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=sopc_system_onchip_memory2_0 --dir=C:/Users/mos-o/AppData/Local/Temp/alt7238_1590545190186138868.dir/0002_onchip_memory2_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/mos-o/AppData/Local/Temp/alt7238_1590545190186138868.dir/0002_onchip_memory2_0_gen//sopc_system_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'sopc_system_onchip_memory2_0'
+Info: onchip_memory2_0: "sopc_system" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: jtag_uart_0: Starting RTL generation for module 'sopc_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=sopc_system_jtag_uart_0 --dir=C:/Users/mos-o/AppData/Local/Temp/alt7238_1590545190186138868.dir/0003_jtag_uart_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/mos-o/AppData/Local/Temp/alt7238_1590545190186138868.dir/0003_jtag_uart_0_gen//sopc_system_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'sopc_system_jtag_uart_0'
+Info: jtag_uart_0: "sopc_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: SRAM_Controller_0: "sopc_system" instantiated SRAM_Controller "SRAM_Controller_0"
+Info: nios2_qsys_0_instruction_master_translator: "sopc_system" instantiated altera_merlin_master_translator "nios2_qsys_0_instruction_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "sopc_system" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent: "sopc_system" instantiated altera_merlin_master_agent "nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent: "sopc_system" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "sopc_system" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "sopc_system" instantiated altera_merlin_router "addr_router"
+Info: id_router: "sopc_system" instantiated altera_merlin_router "id_router"
+Info: id_router_003: "sopc_system" instantiated altera_merlin_router "id_router_003"
+Info: burst_adapter: "sopc_system" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "sopc_system" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "sopc_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_mux: "sopc_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "sopc_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_mux: "sopc_system" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "sopc_system" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/mos-o/Desktop/THIRDYEARSECONDTERM/MECHTRON3TB4/3TB4Labs/lab4/newlab/lab4_restored/sopc_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "sopc_system" instantiated altera_irq_mapper "irq_mapper"
+Info: sopc_system: Done sopc_system" with 21 modules, 68 files, 1537459 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
